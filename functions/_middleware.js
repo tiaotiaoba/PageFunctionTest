@@ -10,6 +10,6 @@ export async function onRequest(context) {
     } = context;
 
     let url = new URL(request.url);
-    url.hostname = "sg.0769886.xyz";//该成自己的域名
+    url.hostname = "CF.0769886.xyz";//该成自己的域名
     return fetch(new Request(url, request))
 }
